@@ -1,0 +1,372 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+ul {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+nav {
+  padding: 0px;
+  margin: 0%;
+  background-color: #0099ff;
+  height: 50px;
+}
+
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav li {
+  float: right;
+  margin-top: 10px;
+  padding: 5px 10px;
+  list-style: none;
+}
+
+nav img {
+  width: 35px;
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav li:hover {
+  background-color: white;
+  border: white;
+  border-radius: 5px;
+  transition-duration: 1s;
+}
+
+h1 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-imagen {
+  background-color: #0099ff;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.txt {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: auto;
+}
+
+.boton {
+  color: black;
+  background-color: green;
+  border: green;
+  border-radius: 10px 5px;
+}
+
+.wave {
+  margin-top: 0px;
+}
+
+.wave1 {
+  display: none;
+}
+
+.imagen2 {
+  height: 200px;
+}
+
+.imagen2:hover {
+  height: 190px;
+  transition: 0.5s;
+}
+
+.hero:hover {
+  color: black;
+  transition: 0.5s;
+}
+
+.txt:hover {
+  color: #0099ff;
+}
+
+.text-lixt {
+  text-align: right;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.text-lixt ul {
+  border: solid 1px #0099ff;
+  width: max-content;
+  padding-top: 100px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.text-lixt li {
+  list-style: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  padding-top: 3px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 150px;
+}
+
+.grid-item img {
+  height: 50px;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+}
+
+.grid-item1 {
+  background-color: rgba(255, 255, 255, 0);
+  border: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  padding-top: 3px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 150px;
+}
+
+.grid-item1 p {
+  font-size: 15px;
+  color: white;
+}
+
+hr {
+  background-color: white;
+}
+
+.txtfooter {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #0099ff;
+}
+
+.wave-footer {
+  margin-block-end: -10px;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 0px;
+}
+
+hr {
+  background-color: white;
+  border-color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 200px 75px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: auto 200px;
+    grid-template-rows: 200px 75px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .grid3{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 200px 75px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .grid2 .a {
+    border: 1px solid #0099ff;
+    background-color: #0099ff;
+    border-radius: 200px;
+  
+  }
+
+  .grid3 .a {
+    border: 1px solid #0099ff;
+    background-color: #0099ff;
+    border-radius: 200px;
+  
+  }
+
+.grid .a {
+  border: 1px solid #0099ff;
+  background-color: #0099ff;
+  border-radius: 200px;
+
+}
+
+.a img{
+    height: 120px;
+    padding-left: 38px;
+    margin-top: 35px;
+}
+
+.grid .b {
+  border: 1px solid rgba(255, 255, 255, 0);
+  padding-left: 10px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grid3 .b {
+  border: 1px solid rgba(255, 255, 255, 0);
+  padding-left: 40%;
+  color: white;
+  height: 42px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid2 .b {
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding-left: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+
+.b h4{
+    text-align: center;
+}
+
+.grid .c {
+  border: 1px solid white;
+}
+.grid .d {
+  border: 1px solid white;
+}
+
+.audio1{
+  border-radius: 10px;
+}
+
+.controlBar > .button {
+  height: 100%;
+  min-width: var(--button-size);
+  min-height: var(--button-size);
+  padding: 6px;
+  border: 0;
+  margin: 0;
+  background-color: #0099ff;
+  -moz-context-properties: fill;
+  fill: currentColor;
+  color: inherit;
+  outline: none;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  .hero {
+    text-align: center;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .hero-imagen {
+    margin-top: 0px;
+    background-color: #0099ff;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .imagen2 {
+    height: 80px;
+  }
+  .imagen2:hover {
+    height: 50px;
+    transition: 0.5s;
+  }
+  .wave {
+    margin-top: -2px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0);
+    border: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    padding-top: 3px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 150px;
+  }
+  .grid-item img {
+    height: 15px;
+  }
+  .grid-item1 p {
+    font-size: 15px;
+    color: black;
+  }
+}
